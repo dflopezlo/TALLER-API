@@ -27,8 +27,8 @@ var datosGraficasTorta = [graficatorta1];
 
 var layout = {
     title: 'Puntos vive digital en los departamentos de Colombia',
-    height: 800,
-    width: 800
+    height: 900,
+    width: 1100,
 };
   
   Plotly.newPlot('grafico_torta', datosGraficasTorta, layout);
@@ -94,8 +94,8 @@ var data = [ linea1, linea2 ];
       
 var layout = {
     title:'Total de Mujeres Víctimas de Feminicidio por Municipio en el Valle del Cauca, en los años 2019 y 2020',
-    height: 500,
-    width: 1500,
+    height: 600,
+    width: 1490,
     xaxis: {
         title: 'Municipios del Valle del Cauca'
     },
