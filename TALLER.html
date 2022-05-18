@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficas</title>
+    <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Taller API</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Buscar" aria-label="Buscar">
+    <div class="navbar-nav">
+      <div class="nav-item text-nowrap">
+        <a class="nav-link px-3" href="#">Desconexión</a>
+      </div>
+    </div>
+  </header>
+  <div class="container"  >
+       <center>
+        <br><br>
+        <h1>Gráficas estadísticas.</h1>
+        <br>
+       </center>
+      <hr>
+
+      <div class="row">
+          <div class="col-sm"  >
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <h2>Gráfica: Puntos Vive Digital.</h2>
+            <p>Puntos Vive Digital es un proyecto iniciado febrero de 2012 y finalizado en julio de 2018. Es un espacio que garantiza el acceso a las Tecnologías de la Información y las Comunicaciones mediante un modelo de servicios sostenible que permite integrar a la comunidad en escenarios de acceso, capacitación, entretenimiento y otras alternativas de servicios TIC en un mismo lugar.</p>
+            <p>A continuación podremos observar en la gráfica Pie chart cada departamento con sus respectivos puntos.</p>
+            </div>
+            <hr>
+            <div class="col-auto"id="grafico_torta"></div>
+            <hr>
+          </div>
+          
+
+          <div class="col-sm">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded"> 
+            <h2>Gráfica: Mujeres Victimas de Feminicidio En el Valle del Cauca.</h2>
+            <p>Los datos tomados nos describen el número total de mujeres victimas de feminicidio en el Valle del Cauca discriminado por municipios y años.</p>
+            <p>Se implementa una gráfica Line chart para representar la cantidad de Feminicidios ocurridos en el Valle del Cauca por cada municipio; ocurridos unicamente entre el 2019 y 2020.</p>
+            <p>En el eje 'X' encontramos cada uno de los municipios del Valle del Cauca, y en el eje 'Y' el número de feminicidios totales ocurridos en el Valle del Cauca. Por su parte la línea roja representa las variaciones en el año 2019 y la azul en el 2020.</p>
+            </div>
+            <hr>
+            <div class="col-auto" id="graficoLinea"></div>
+            <hr>
+          </div>  
+      </div>
+    </div> 
+    <!-- Footer -->
+<footer class=" text-center ">
+    <!-- Grid container -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>Contacto página web:</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <br>
+              <li>Carrera 27 # 64-60
+              </li>
+              <li>
+                01 8000 916956
+              </li>
+              <li>
+                Manizales, Caldas - Colombia
+              </li>
+              <li>
+                (57+606) 8879300
+              </li>
+              <li>
+                Algunos derechos reservado
+              </li>
+              <li>
+                Actualización: 17/02/2022
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">https://www.datos.gov.co/Ciencia-Tecnolog-a-e-Innovaci-n/Puntos-Vive-Digital/etr2-mkeu</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">https://www.datos.gov.co/Estad-sticas-Nacionales/Total-de-Mujeres-Victimas-de-Feminicidio-por-Munic/fs93-tx8v</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Universidad Nacional de Colombia
+      <p>Sede Manizales</p>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+  
+</body>
+<script src="TALLERJS.js"></script>
+</html>
